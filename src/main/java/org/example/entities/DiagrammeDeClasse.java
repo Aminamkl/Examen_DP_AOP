@@ -20,6 +20,9 @@ public class DiagrammeDeClasse {
     public void setStrategyGenerationCode(StrategyGenerationCode strategyGenerationCode) {
         this.strategyGenerationCode = strategyGenerationCode;
     }
+    public void addClass(GroupeClasse classe){
+        entites.add(classe);
+    }
 
     public void setStrategyExporter(IStrategyExporter strategyExporter) {
         this.strategyExporter = strategyExporter;

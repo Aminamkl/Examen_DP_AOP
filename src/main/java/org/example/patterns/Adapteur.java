@@ -7,7 +7,7 @@ public class Adapteur extends AncienneImpGenerateCode implements StrategyGenerat
 
     @Override
     public void genererCode() {
-        genererCode();
+        //genererCode();
     }
 
 }
